@@ -1,0 +1,124 @@
+
+body {
+  background-color: #f5e5c6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.dark {
+  background-color: #1a1a1a;
+  color: white;
+  
+}
+.darkheader {
+  color: rgb(166, 166, 166);
+}
+.darkimage {
+  filter: invert(100%);
+}
+
+
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+
+#image-container {
+  position: relative;
+  display: inline-block;
+  width: 500px; 
+  height: 450px; 
+  margin-bottom: 70px;
+  margin-left: 80px;
+}
+
+#Bosses {
+  display: block;
+  border-radius: 15px;
+  height: 400px; 
+  width: 100%;    
+  object-fit: contain;
+}
+
+#nameInput {
+  position: absolute;
+  bottom: 2px;  
+  left: -57px;    
+  font-size: larger;
+}
+.arrow {
+  position: absolute;
+    top: 40%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow.next {
+  right: -60px;
+  
+}
+.arrow.back {
+  left: -60px;
+}
+
+
+#description {
+    position: relative;
+    left: 20px;
+    margin-right: 20px;
+    font-size: larger;
+    overflow-wrap: break-word;
+}
+
+
+
+#bosses {
+    position: relative;
+    left: 40px;
+    overflow-wrap: break-all;
+    font-size: larger;
+
+
+}
+
+
+#greeting {
+    position: relative;
+    left: 20px;
+    font-size: larger;
+}
+
+h2 {
+  color: crimson;
+}
+
+#factFun {
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#bossGen {
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#rateBoss {
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}

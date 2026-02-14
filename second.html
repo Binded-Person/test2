@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boss Randomizer and Rater</title>
+  </head>
+
+  <body>
+    <button id="darkModeBtn">Toggle Dark Mode</button>
+    <header>
+      <h1 id="headi">Boss Randomizer and Rater</h1>
+      <nav>
+        <li><a href="index.html">Home</a></li>
+      </nav>
+    </header>
+    <section id="bossGen">
+      <h2 id="generator">Random Boss Generator</h2>
+      <button id="randomizeBtn" onclick="randomizeBoss()">Generate Boss</button>
+      <p id="randomBoss"></p>
+    </section>
+
+    <section id="rateBoss">
+      <h2 id="rater">Rate the Difficulty</h2>
+      <input type="range" id="slider" min="1" max="10" value="5" />
+      <button id="rateBtn" onclick="rateBoss()">Submit Rating</button>
+      <p id="bossRating"></p>
+    </section>
+
+    <section id="factFun">
+      <h2>Boss Fun Fact</h2>
+      <button id="funFactBtn" onclick="toggleFact()">Show/Hide Fact</button>
+      <p id="funFact">
+        Malenia heals every time she hits you, even if you block.
+        <br>
+        In his “Sword Saint” form, Isshin uses four different combat styles in one fight: katana, spear, gun, and lightning.
+        <br>
+        The Nameless King is heavily implied to be the long-lost firstborn son of Gwyn, who was erased from history for siding with dragons.
+        <br>
+        The Orphan fights using its own placenta as a weapon.
+        <br>
+        Absolute Radiance only appears at the very end of the Pantheon of Hallownest, meaning you must defeat every other boss in the game consecutively before even attempting her.
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

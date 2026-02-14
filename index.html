@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardest Video Game Bosses</title>
+  </head>
+  <body>
+    <button id="darkModeBtn">Toggle Dark Mode</button>
+
+    <header>
+      <h1 id="headi">Hardest Video Game Bosses</h1>
+      <nav>
+        <li><a href="second.html">Second Page</a></li>
+      </nav>
+    </header>
+    <section id="image-container">
+      <img id="Bosses" src="images/malenia.webp" alt="Bosses" />
+      <button type="button" onclick="nextImage()" class="arrow next">
+        <img
+          src="images/single-black-right-arrow-inside-600nw-2456563823-removebg-preview.png"
+          alt="next image"
+          style="width: 50px; height: 50px"
+          id="next-arrow"
+        />
+      </button>
+      <button type="button" onclick="backImage()" class="arrow back">
+        <img
+          src="images/leftarrow.png"
+          alt="back image"
+          style="width: 50px; height: 50px"
+          id="back-arrow"
+        />
+      </button>
+      <input
+      type="text"
+      id="nameInput"
+      placeholder="Enter your name"
+      onkeyup="updateGreeting()"
+    />
+    </section>
+    
+    <p id="greeting"></p>
+    <section>
+      <p id="description">
+        The hardest video game boss is a topic of much debate among gamers. This
+        is especially true due to the fact that there are many unique video game
+        genres with completely different mechanics and challenges. They can
+        range from turn based RPG bosses to three dimensional souls-like bosses.
+        However, there are some bosses that are infamous for their difficulty,
+        just their genres. The following is a list of those bosses.
+      </p>
+    </section>
+    <section id="bosses">
+      <p id="malenia">
+        - Malenia, Blade of Miquella: This boss is from the game Elden Ring, and
+        is widely regarded as one of the hardest bosses in the game. She has a
+        unique move set that requires precise timing and strategy to defeat.
+        <br />
+        <br />
+      </p>
+      <p id="isshin">
+        - Isshin, the Sword Saint: This boss is from the game Sekiro: Shadows
+        Die Twice, and is known for his aggressive fighting style and powerful
+        attacks. He requires quick reflexes and mastery of the game's combat
+        mechanics to defeat.
+        <br />
+        <br />
+      </p>
+      <p id="nameless">
+        - The Nameless King: This boss is from the game Dark Souls III, and is
+        considered one of the toughest bosses in the Dark Souls series. He has a
+        wide range of attacks and can be very difficult to predict.
+        <br />
+        <br />
+      </p>
+      <p id="orphan">
+        - Orphan of Kos: This boss is from the game Bloodborne, and is known for
+        his relentless aggression and high damage output. He requires precise
+        timing and quick reflexes to defeat, making him a challenging boss for
+        many players.
+        <br />
+        <br />
+      </p>
+      <p id="radiance">
+        - Absolute Radiance: This boss is from the game Hollow Knight, and is
+        considered the hardest boss in the game. She has a wide range of attacks
+        and can be very difficult to predict, making her a formidable opponent.
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
